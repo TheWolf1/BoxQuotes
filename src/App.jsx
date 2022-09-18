@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import QuoteBox from './components/QuoteBox'
 import quotes from './model/quotes.json'
+import Footer from './components/Footer'
 
 function App() {
   const script = document.createElement("script");
@@ -43,6 +44,8 @@ function App() {
         ramdomColor = {ramdomColor}
         ramdomAll = {ramdomAll}
       />
+
+      <Footer />
     </div>
   )
 }
